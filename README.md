@@ -1,6 +1,5 @@
 # 🐚 Minishell in C
-
-A lightweight educational shell implemented in **C**. It supports:
+A minimal Unix shell implemented in **C** with support for foreground/background job execution, internal commands (cd, jobs, fg, salir), input/output/error redirection, pipelines between processes, and robust signal handling. Designed as an educational project to deepen understanding of process management and system-level programming in Unix-like environments.
 
 - 🚀 Execution of external commands using `execvp()`
 - 🔧 Built-in commands: `cd`, `jobs`, `fg`, `salir`
