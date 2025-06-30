@@ -14,3 +14,7 @@ A lightweight educational shell implemented in **C**. It supports:
 ```bash
 gcc -o minishell minishell.c parser.c -Wall
 ./minishell
+
+msh > ls -l | grep ".c" > output.txt &
+msh > jobs
+msh > fg 1
